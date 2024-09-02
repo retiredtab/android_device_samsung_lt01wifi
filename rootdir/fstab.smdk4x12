@@ -18,3 +18,5 @@
 /dev/block/platform/dw_mmc/by-name/RECOVERY    /recovery            emmc      defaults    recoveryonly
 /dev/block/platform/dw_mmc/by-name/OTA         /misc                emmc      defaults    defaults
 
+# ZRAM
+/dev/block/zram0                               none		            swap      defaults    zramsize=33%
